@@ -10,3 +10,7 @@ function Card() {
     )
 }
 export default Card;
+
+
+{/* 01 HTML and CSS in REACT JS */ }
+{/* 02 How to Create a Component in React js */ }

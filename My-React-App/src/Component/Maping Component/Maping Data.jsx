@@ -9,3 +9,5 @@ function Maping (props){
     )
 }
 export default Maping;
+
+ {/* 04 How to import Data and Maping Data in React js  */}

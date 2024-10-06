@@ -16,3 +16,5 @@ function Props (props){
     )
 }
 export default Props;
+
+{/* 03 How to use Props and Destructuring in React js  */}

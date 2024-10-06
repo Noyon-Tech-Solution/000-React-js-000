@@ -42,3 +42,5 @@ function Nested() {
 }
 
 export default Nested;
+
+{/* 06 How to Maping Nested Data in React.Js */}
