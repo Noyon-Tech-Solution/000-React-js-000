@@ -1,4 +1,7 @@
 {
     "editor.fontSize": 20,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "selection",
+    "editor.accessibilityPageSize": 10
 }
