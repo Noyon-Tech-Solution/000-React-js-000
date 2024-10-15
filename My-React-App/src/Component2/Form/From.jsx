@@ -1,29 +1,29 @@
 import React, { useState } from "react";
 
 export default function From() {
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
-    const handlerNameSubmite = (e) => {
-        setName(e.target.value)
-    }
-    const handlerEmailSubmite = (e) => {
-        setEmail(e.target.value)
-    }
-    const handlerPasswordSubmite = (e) => {
-        setPassword(e.target.value)
-    }
-    const handlerSubmite = (e) => {
-        console.log("From is Submited");
-        const userInfo = {
-            name,
-            email,
-            password
-        }
-        console.log(userInfo);
-        e.preventDefault();
-    }
+  const handlerNameSubmite = (e) => {
+    setName(e.target.value);
+  };
+  const handlerEmailSubmite = (e) => {
+    setEmail(e.target.value);
+  };
+  const handlerPasswordSubmite = (e) => {
+    setPassword(e.target.value);
+  };
+  const handlerSubmite = (e) => {
+    console.log("From is Submited");
+    const userInfo = {
+      name,
+      email,
+      password,
+    };
+    console.log(userInfo);
+    e.preventDefault();
+  };
 
   return (
     <div>
@@ -68,4 +68,6 @@ export default function From() {
   );
 }
 
-{/* 04 How to Access of From Value in React.Js */}
+{
+  /* 04 How to Access of From Value in React.Js */
+}

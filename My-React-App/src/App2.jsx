@@ -7,7 +7,7 @@ import React from 'react'
 export default function App2() {
   return (
     <div>
-      {/* 01 How to use Hooks_useState in React.Js */}
+      {/*  01 How to use Hooks_useState in React.Js */}
       {/* <Hooks_useState /> */}
 
       {/* 02 How to use Update_Hooks_useState in React.Js */}
