@@ -4,6 +4,9 @@ import React from "react";
 // import Event_Bubbling from './Component2/Event_Bubbling/Event_Bubbling'
 // import From from './Component2/Form/From'
 // import Child from "./Component2/State_Lefting/Child";
+// import Toggle from "./Component2/Toggle/Toggle";
+// import UseEffect from "./Component2/Hooks/UseEffect/UseEffect";
+// import FetchDataUseEffect from "./Component2/Hooks/FetchingData_useEffect/FetchDataUseEffect";
 
 // 05 How to Send Data Parents to Child React.Js
 // const data = "I am from Parents";
@@ -31,7 +34,14 @@ export default function App2() {
       {/* 05 How to Send Data Child To Parents  & Parents to Child React.Js */}
       {/* <Child data={data} onChildData={handlerChildData} /> */}
 
-      
+       {/* 06 How to use Toggle in React.Js */}
+      {/* <Toggle /> */}
+
+      {/*  07 How to use useEffect in React.Js */}
+      {/* <UseEffect /> */}
+
+      {/*  07 How to Fetching Data on useEffect in React.Js */}
+      {/* <FetchDataUseEffect /> */}
     </div>
   );
 }
