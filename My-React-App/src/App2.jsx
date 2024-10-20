@@ -7,6 +7,9 @@ import React from "react";
 // import Toggle from "./Component2/Toggle/Toggle";
 // import UseEffect from "./Component2/Hooks/UseEffect/UseEffect";
 // import FetchDataUseEffect from "./Component2/Hooks/FetchingData_useEffect/FetchDataUseEffect";
+import Formik from "./Component2/Form/Formik";
+
+
 
 // 05 How to Send Data Parents to Child React.Js
 // const data = "I am from Parents";
@@ -34,7 +37,7 @@ export default function App2() {
       {/* 05 How to Send Data Child To Parents  & Parents to Child React.Js */}
       {/* <Child data={data} onChildData={handlerChildData} /> */}
 
-       {/* 06 How to use Toggle in React.Js */}
+      {/* 06 How to use Toggle in React.Js */}
       {/* <Toggle /> */}
 
       {/*  07 How to use useEffect in React.Js */}
@@ -42,6 +45,9 @@ export default function App2() {
 
       {/*  07 How to Fetching Data on useEffect in React.Js */}
       {/* <FetchDataUseEffect /> */}
+
+      {/*  08 How to Control From Data using formik in React.Js */}
+      <Formik />
     </div>
   );
 }
