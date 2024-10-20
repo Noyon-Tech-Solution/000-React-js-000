@@ -9,8 +9,6 @@ import React from "react";
 // import FetchDataUseEffect from "./Component2/Hooks/FetchingData_useEffect/FetchDataUseEffect";
 import Formik from "./Component2/Form/Formik";
 
-
-
 // 05 How to Send Data Parents to Child React.Js
 // const data = "I am from Parents";
 
